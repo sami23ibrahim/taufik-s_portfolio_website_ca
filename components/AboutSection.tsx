@@ -1,9 +1,10 @@
 
-"use client" // this is a client component
+"use client" // this is a client component ggg
 import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
+
 
 
 const skills = [
