@@ -7,7 +7,7 @@ import { HiArrowDown } from "react-icons/hi"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-38 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-20 py-16 sm:py-28 md:py-11 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image  
             src="/sami2.jpg"
@@ -29,7 +29,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 "
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -40,18 +40,6 @@ const HeroSection = () => {
 
           </Link>
           <span className="mx-2"></span>
-          {/* <Link
-            to="Resume"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            
-          >
-           Resume
-          </Link> */}
 <a
   href="/Sami_Ibrahim_Resume.pdf"
   target="_blank"
@@ -72,7 +60,9 @@ const HeroSection = () => {
 
         </div>
       </div>
-      <div className="flex flex-row items-center text-center justify-center ">
+
+<div className="flex flex-row items-center text-center justify-center ">
+        
         <Link
           to="about"
           activeClass="active"
@@ -81,7 +71,26 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+         <h1 className="text-center font-bold text-3xl mb-4 cursor-pointer">
+          
+          Jump to About Me
+        </h1>
+      
+        </Link>
+      </div>
+
+
+      <div className="flex flex-row items-center text-center justify-center ">
+        
+        <Link
+          to="about"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
         </Link>
       </div>
     </section>
