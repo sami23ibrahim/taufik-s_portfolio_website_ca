@@ -142,7 +142,8 @@ const AboutSection = () => {
  <h1 className="text-center text-xl font-bold mb-6 md:text-left">Education</h1>
             <div className="flex items-center mb-4 align-bottom mt-9">
               <Image
-                src="/ConcordiaLogo.png"
+                //src="/ConcordiaLogo.png"
+                src="/concordiaLogo.png"
                 alt="Concordia University Icon"
                 width={80}
                 height={50}
