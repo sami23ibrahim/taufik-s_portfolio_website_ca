@@ -1,12 +1,11 @@
-
 "use client" // this is a client component
-import React from "react"
-import { useState } from "react"
-import { Link } from "react-scroll/modules"
-import { usePathname } from "next/navigation"
+import React, { useState } from "react"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
+import { Link as OriginalLink } from "react-scroll/modules"
+
+const Link = OriginalLink as any;  // Type assertion to fix the TypeScript issue
 
 interface NavItem {
   label: string
@@ -31,7 +30,6 @@ const NAV_ITEMS: Array<NavItem> = [
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === "system" ? systemTheme : theme
-  const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
 
   let themeIcon;
