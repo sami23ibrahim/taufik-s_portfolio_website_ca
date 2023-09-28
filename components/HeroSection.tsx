@@ -1,5 +1,4 @@
-
-"use client" // this is a client component rfrffrfrfrf
+"use client" // this is a client component kkklll
 import React from "react"
 import Image from "next/image"
 import { Link as OriginalLink } from "react-scroll"
