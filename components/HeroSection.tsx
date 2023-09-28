@@ -36,7 +36,7 @@ const HeroSection = () => {
             {" "}Marketing{" "}
             </span>
             
-            from Tishreen University. I'm passionate about blending technical prowess with marketing acumen to create impactful software solutions that resonate with users.
+            from Tishreen University. I&apos;m passionate about blending technical prowess with marketing acumen to create impactful software solutions that resonate with users.
 
              
 

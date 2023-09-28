@@ -95,7 +95,7 @@ const AboutSection = () => {
  
   <h2 className="text-xl font-bold mb-4">🌟 Skills & Attributes:</h2>
   <p className="mb-4">
-    I'm a self-starter and analytical thinker, with a knack for solving problems and a drive to learn and innovate. My dual background in Computer Science and Economics positions me uniquely, enabling me to bring diverse perspectives to both individual and team environments.
+    I&apos;m a self-starter and analytical thinker, with a knack for solving problems and a drive to learn and innovate. My dual background in Computer Science and Economics positions me uniquely, enabling me to bring diverse perspectives to both individual and team environments.
   </p>
   <h2 className="text-xl font-bold mb-4">🔗 Connect With Me:</h2>
   <p>
