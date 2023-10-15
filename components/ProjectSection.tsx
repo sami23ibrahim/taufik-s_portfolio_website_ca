@@ -115,36 +115,38 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "AI Face Mask Detector",
+    name: "Certified Associate in Project Management (CAPM)® ",
     description:
-      "Implemented a Deep Learning Convolutional Neural Network (CNN) using Python and trained it to detect whether a person is wearing aface mask or not, as well as the type of mask that is being worn.",
-    image: "/face_mask2.png",
-    github: "https://github.com/sami23ibrahim/AI-Face-Mask-Detector-main",
-    link: "",
-  },
-  {
-    name: "Halloween fighters 2.5D Game",
-    description: "2.5D variation of Sunset Riders game built in Unity using C#. In this variation, rather than being set in beautiful sunset from the old west, the game takes place in a scary haunted manor.",
-    image: "/Halloween_fighters.png",
+      " A globally-recognized certification that validates fundamental knowledge and understanding of project management concepts, terminology, and processes. Earned after fulfilling PMI’s rigorous requirements, demonstrating a solid foundation in project management, and successfully passing the CAPM exam.",
+    image: "/Screenshot1.png",
     github: "",
-    link: "https://www.youtube.com/watch?v=MhkEzkghuvQ",
+    link: "Certificate_1.pdf",
   },
   {
-    name: "Rentrack Data base",
-    description:
-      "Designed a relational database using SQL to help streamline the process of managing customers, employees, reservations, invoices, and payments of truck renting company.",
-    image: "/rent.png",
-    github: "https://github.com/sami23ibrahim/Rentrack-main",
-    link: "",
+    name: "Professional Scrum Master ",
+    description: "The PSM I certification from Scrum.org signifies a deep understanding of Scrum methodologies and Agile project management principles. The certification validates the ability to apply Scrum principles effectively in project management and to lead and support Scrum teams towards successful project completion.",
+    image: "/Screenshot2.png",
+    github: "",
+   
+    link: "Professional_2.pdf",
+ 
   },
-  {
-    name: "Serial Cleaners 3D Game",
-    description:
-      "3D multiplayer game built in Unity using C#, the Two players work together to clean a crime scene left behind by a serial killer. Their goal is to leave the crime scene squeaky clean in the shortest time possible before the next residents arrive.",
-    image: "/Serial-Cleaners.png",
-    github: "https://github.com/sami23ibrahim/Serial-Cleaners/tree/main",
-    link: "",
-  },
+  // {
+  //   name: "Rentrack Data base",
+  //   description:
+  //     "Designed a relational database using SQL to help streamline the process of managing customers, employees, reservations, invoices, and payments of truck renting company.",
+  //   image: "/rent.png",
+  //   github: "https://github.com/sami23ibrahim/Rentrack-main",
+  //   link: "",
+  // },
+  // {
+  //   name: "Serial Cleaners 3D Game",
+  //   description:
+  //     "3D multiplayer game built in Unity using C#, the Two players work together to clean a crime scene left behind by a serial killer. Their goal is to leave the crime scene squeaky clean in the shortest time possible before the next residents arrive.",
+  //   image: "/Serial-Cleaners.png",
+  //   github: "https://github.com/sami23ibrahim/Serial-Cleaners/tree/main",
+  //   link: "",
+  // },
 ]
 
 // const ProjectsSection = () => {
@@ -208,7 +210,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+      Certificates
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
@@ -220,7 +222,7 @@ const ProjectsSection = () => {
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className="md:w-1/2">
                     {project.link ? (
-                      <Link href={project.link}>
+                      <Link href={project.link}  target="_blank">
                         <Image
                           src={project.image}
                           alt=""
@@ -240,7 +242,7 @@ const ProjectsSection = () => {
                     )}
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
+                    <h1 className="text-xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>

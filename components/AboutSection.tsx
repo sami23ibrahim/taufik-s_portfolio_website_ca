@@ -4,21 +4,22 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
+  { skill: "CAPM" },
+  { skill: "Agile" },
+  { skill: "Project Management" },
+  { skill: "Scrum" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
+  { skill: "SAP" },
   { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "Microsoft Office" },
   { skill: "Git" },
   { skill: "GitHub" },
+  { skill: "QA" },
   { skill: "Java" },
-  { skill: "C#" },
-  { skill: "Unity" },
-  { skill: "Davinci Resolve" },
-  { skill: "C++" },
+  { skill: "JIRA" },
+  { skill: "Azure DevOps" },
   { skill: "SQL" },
 ];
 
@@ -46,7 +47,7 @@ const AboutSection = () => {
               <div>
                 <h2 className="font-bold text-xl">Bachelor of Computer Science </h2>
                 <p className="font-bold">Concordia University, Montreal, QC</p>
-                <p>2020 - 2023</p>
+                <p>2017 - 2021</p>
               </div>
             </div>
             <div className="flex items-center mt-6 ">
@@ -60,7 +61,7 @@ const AboutSection = () => {
               <div>
                 <h2 className="font-bold text-xl">Bachelor of Economics, Business Administration and Marketing</h2>
                 <p className="font-bold">Tishreen University, Latakia, Syria</p>
-                <p>2015 - 2018</p>
+                <p>2011 - 2016</p>
               </div>
             </div>
             
@@ -83,27 +84,36 @@ const AboutSection = () => {
           </div>
           
          {/* Personalized Summary Section */}
-<div className="md:w-1/2">
+         <div className="md:w-1/2">
   
+  {/* <h2 className="text-xl font-bold mb-4">🎓 Educational Journey:</h2> */}
   <h2 className="text-xl font-bold mb-4">🎓 Educational Journey:</h2>
   <p className="mb-4">
-    Graduating with distinction, my academic journey in Computer Science has been a blend of learning and practical application. I delved deep into subjects like Data Structures, Algorithms, Artificial Intelligence, Game Development, and Software Engineering Methodologies, equipping myself with a versatile skill set in Java, Python, and JavaScript.
+  My academic journey in Computer Science has been a blend of learning and practical application. I delved deep into subjects like Data Structures, Algorithms, Artificial Intelligence, Game Development, and Software Engineering Methodologies, equipping myself with a versatile skill set in Java, Python, and JavaScript.
   </p>
+
   <h2 className="text-xl font-bold mb-4">💼 Professional Experience:</h2>
   <p className="mb-4">
-    My stint as a Junior Software Engineer at Zetane Systems Inc. was a learning curve where I wore multiple hats - from designing and implementing software features to enhancing front-end components and boosting SEO scores to 100%. My role also involved leveraging Google Analytics 4 for event-based tracking, aiding the company in making data-driven decisions.
+    My career began in customer service at 
+    <span className="font-semibold text-teal-300"> Teleperformance</span>, where I tackled technical issues for Apple users, laying a foundation in problem-solving and customer relations. This evolved into a sales role at <span className="font-semibold text-teal-300">Alorica</span> for the RBC Bank campaign. Stepping into the gaming world at <span className="font-semibold text-teal-300">Keywords Studios</span>, I embraced the role of a Quality Assurance Tester for Google Stadia, where precision and analytical skills were at the forefront.
   </p>
- 
+  
+  {/* <h2 className="text-xl font-bold mb-4">💼 Professional Experience:</h2> */}
+  <p className="mb-4">
+    Transitioning into the tech industry I joined <span className="font-semibold text-teal-300">TELUS Health</span>, Starting as a Software Analyst, and later advancing to a Senior Software Analyst, my journey has been marked by continuous growth and diverse experiences, ranging from pension plan management to software process enhancement. In every role, from customer service to technology, my focus has been on driving excellence and innovation. 🚀
+  </p>
+  
   <h2 className="text-xl font-bold mb-4">🌟 Skills & Attributes:</h2>
   <p className="mb-4">
-    I&apos;m a self-starter and analytical thinker, with a knack for solving problems and a drive to learn and innovate. My dual background in Computer Science and Economics positions me uniquely, enabling me to bring diverse perspectives to both individual and team environments.
+    I&apos;m a self-starter and <span className="font-semibold text-teal-300">analytical thinker</span>, with a knack for solving problems, Project Management and a drive to learn and innovate. My dual background in Computer Science and Economics positions me uniquely, enabling me to bring diverse perspectives to both individual and team environments.
   </p>
+  
   <h2 className="text-xl font-bold mb-4">🔗 Connect With Me:</h2>
   <p>
-    sami23ibrahim@gmail.com
- 
-            </p>
-          </div>
+    Toufik.Rabahie@gmail.com
+  </p>
+</div>
+
         </div>
       </div>
     </section>
